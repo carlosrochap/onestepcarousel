@@ -1,0 +1,59 @@
+body{
+    padding:0;
+    margin:0;
+}
+
+.sectHolder{
+    width:680px;
+    height:400px;
+    border:#000 solid 1px;
+    position:relative;
+    overflow:hidden;
+}
+
+.ctnsec{
+    width:680px;
+    height:400px;
+    background-color:#333;
+    display:none;
+    position:absolute;
+    left:0;
+    top:0
+}
+
+.title{
+    font-size:32px;
+    color:#FFF;
+}
+.active{
+    display:block;
+}
+
+
+#img1{
+    background: url('../images/chasing_spirits_by_orochi_rob-d5ggv4r.jpg') no-repeat;
+}
+
+#img2{
+    background: url('../images/come_back_inocence_by_orochi_rob-d50n4ih.jpg') no-repeat;
+}
+
+#img3{
+    background: url('../images/Creek_Mary__s_Blood_by_orochi_rob.jpg') no-repeat;
+}
+
+#img4{
+    background: url('../images/Frozen_Sonata_by_orochi_rob.jpg') no-repeat;
+}
+
+#img5{
+    background: url('../images/last_ride_of_the_day_by_orochi_rob-d4y4ts4.jpg') no-repeat;
+}
+
+#img6{
+    background: url('../images/the_rescue__halloween_drawing__by_orochi_rob-d5jlbt4.jpg') no-repeat;
+}
+
+#img7{
+    background: url('../images/White_Night_Fantasy_by_orochi_rob.jpg') no-repeat;
+}

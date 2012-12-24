@@ -21,7 +21,7 @@
                 var elm = $(this);
                 if (elm.hasClass('active')) {
 
-                    var pos = (hd-elm.width())/2;
+                    var pos = (hd-elm.width())/2 - 1;
                     elm.css('left', pos+'px');
                 }
             });
@@ -44,7 +44,7 @@
                 var secToIndex = secTo.index();
 
                 var hd 		= switcher.parent.outerWidth();
-                var to 		= (hd-secTo.width())/2;
+                var to 		= (hd-secTo.width())/2 - 1;
                 var ce 		= switcher.parent.find(switcher.itemClass+'.active');
                 var ceIndex = ce.index();
 

@@ -88,6 +88,24 @@
 
             );
 
+        },
+
+        preloadImages: function (element) {
+            element.children().each(function () {
+
+                var child   = $(this);
+                var imgUrl  = child.css('background-image');
+                imgUrl      = imgUrl.match(/^url\(['"](.+)["']\)$/);
+                imgUrl      = imgUrl ? imgUrl[1] : "";
+
+                if (imgUrl) {
+                    $('<img>').attr('src', function () {
+                        return imgUrl
+                    });
+                }
+
+                switcher.preloadImages(child);
+            });
         }
     };
 
@@ -147,6 +165,10 @@
             });
 
         });
+
+        if (options.preload){
+            switcher.preloadImages(carouselHolder);
+        }
     };
 
 })( jQuery );

@@ -9,7 +9,7 @@
 "effect",
 "slideshow"
 ],
-"version": "1.0.2",
+"version": "1.0.3",
 "author": {
 "name": "Carlos Rocha",
 "url": "http://imaginaestudios.com/singlestepcarousel/"
@@ -31,7 +31,7 @@
 "homepage": "http://imaginaestudios.com/singlestepcarousel/",
 "demo": "http://imaginaestudios.com/singlestepcarousel/",
 "docs": "http://imaginaestudios.com/singlestepcarousel/",
-"download": "https://github.com/tjfoetus/onestepcarousel/archive/1.0.2.tar.gz",
+"download": "https://github.com/tjfoetus/onestepcarousel/archive/1.0.3.tar.gz",
 "dependencies": {
 "jquery": ">=1.8"
 }

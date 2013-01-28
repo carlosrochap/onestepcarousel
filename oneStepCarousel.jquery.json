@@ -29,6 +29,7 @@
 ],
 "bugs": "https://github.com/tjfoetus/onestepcarousel/issues",
 "homepage": "http://imaginaestudios.com/singlestepcarousel/",
+"demo": "http://imaginaestudios.com/singlestepcarousel/",
 "docs": "http://imaginaestudios.com/singlestepcarousel/",
 "download": "https://github.com/tjfoetus/onestepcarousel/archive/1.0.1.tar.gz",
 "dependencies": {

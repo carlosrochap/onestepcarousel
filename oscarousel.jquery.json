@@ -1,0 +1,36 @@
+{
+"name": "oneStepCarousel",
+"title": "Single Step Carousel (One Step Carousel)",
+"description": "The purpose of this plugin is to be able to jump from one item to another regardless it's index/position in just one step.",
+"keywords": [
+"carousel",
+"animation",
+"ui",
+"effects"
+],
+"version": "1.0.0",
+"author": {
+"name": "Carlos Rocha",
+"url": "http://imaginaestudios.com/singlestepcarousel/"
+},
+"maintainers": [
+{
+"name": "Carlos Rocha",
+"email": "carlos@rocha.cc",
+"url": "http://imaginaestudios.com"
+}
+],
+"licenses": [
+{
+"type": "MIT",
+"url": "https://github.com/tjfoetus/onestepcarousel/blob/master/MIT-LICENSE.txt"
+}
+],
+"bugs": "https://github.com/tjfoetus/onestepcarousel/issues",
+"homepage": "http://imaginaestudios.com/singlestepcarousel/",
+"docs": "http://imaginaestudios.com/singlestepcarousel/",
+"download": "imaginaestudios.com/singlestepcarousel/oneStepCarousel.rar",
+"dependencies": {
+"jquery": ">=1.8"
+}
+}
